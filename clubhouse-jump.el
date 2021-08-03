@@ -96,3 +96,5 @@ be strings."
   (let ((url (clubhouse-completing-read-story-url)))
     (message url)
     (kill-new url)))
+
+(provide 'clubhouse-jump)
